@@ -5,7 +5,7 @@ public class Solution {
 		int sum=0;
 		if(args.length>0)
 		{
-		for(int i=0;i<args.length;i++)
+		for(int i=0;i<args.length;++i)
 		//for(String data:args)
 		{
 				sum=sum+Integer.parseInt(args[i]);
